@@ -12,8 +12,14 @@
     <!-- font awesome icons -->
     <link rel="stylesheet" href="./css/all.min.css">
 
+    <!-- Magnific popup css file-->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
     <!-- custom css file -->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- Responsive CSS file-->
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
 
@@ -87,16 +93,302 @@
           </section>
 
           <!-- #################################  End Banner Area ###############################-->
+          
+          <!-- ########################### About Area #############################-->
+
+          <section class="about-area">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6 col-md-12">
+                  <div class="about-image">
+                    <img src="./img/About_me.png" alt="About_me" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 about-title">
+                  <h2 class="text-uppercase pt-5">
+                      <span>Let me</span>
+                      <span>introduce</span>
+                      <span>myself</span>
+                  </h2>
+                  <div class="paragraph py-4 w-75">
+                      <p class="para">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                      <p class="para">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                      </p>
+                  </div>
+                  <button type="button" class="btn button primary-button text-uppercase">Download cv</button>
+              </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ########################### End About Area #############################-->
+
+          <!--  ====================== Start Services Area =============================  -->
+
+        <section class="services-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center services-title">
+                      <h1 class="text-uppercase title-text">Services Offers</h1>
+                      <p class="para">
+                          There are many variations of passages of Lorem Ipsum available, but the majority have
+                          suffered alteration in some form, by injected humour
+                      </p>
+                  </div>
+              </div>
+              <div class="container services-list">
+                  <div class="row">
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                          <div class="services">
+                              <div class="sevices-img text-center py-4">
+                                  <img src="./img/services/s1.png" alt="Services-1">
+                              </div>
+                              <div class="card-body text-center">
+                                  <h5 class="card-title text-uppercase font-roboto">Wp developer</h5>
+                                  <p class="card-text text-secondary">
+                                      Some quick example text to build on the card
+                                      title and make up
+                                      the bulk of the card's content.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                          <div class="services">
+                              <div class="sevices-img text-center py-4">
+                                  <img src="./img/services/s2.png" alt="Services-2">
+                              </div>
+                              <div class="card-body text-center">
+                                  <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                                  <p class="card-text text-secondary">
+                                      Some quick example text to build on the card
+                                      title and make up
+                                      the bulk of the card's content.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                          <div class="services">
+                              <div class="sevices-img text-center py-4">
+                                  <img src="./img/services/s3.png" alt="Services-3">
+                              </div>
+                              <div class="card-body text-center">
+                                  <h5 class="card-title text-uppercase font-roboto">web design</h5>
+                                  <p class="card-text text-secondary">
+                                      Some quick example text to build on the card
+                                      title and make up
+                                      the bulk of the card's content.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                          <div class="services">
+                              <div class="sevices-img text-center py-4">
+                                  <img src="./img/services/s4.png" alt="Services-4">
+                              </div>
+                              <div class="card-body text-center">
+                                  <h5 class="card-title text-uppercase font-roboto">seo optimize</h5>
+                                  <p class="card-text text-secondary">
+                                      Some quick example text to build on the card
+                                      title and make up
+                                      the bulk of the card's content.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!--  ====================== End Services Area =============================  -->
+
+      <!--  =======================  Gallery Area =============================  -->
+
+      <section class="gallery-area">
+        <div class="container">
+            <div class="gallery-title pb-5">
+                <h1 class="text-uppercase title-h1">Photo Gallery</h1>
+            </div>
+
+            <div class="button-group">
+                <button type="button" class="active" id="btn1" data-filter="*">All</button>
+                <button type="button" data-filter=".Architectures">Architectures </button>
+                <button type="button" data-filter=".Food">Food</button>
+                <button type="button" data-filter=".Artists">Artists</button>
+                <button type="button" data-filter=".Movies">Movies</button>
+            </div>
+
+            <div class="row grid">
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item Architectures">
+                    <div class="our-gallery">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/gallery/p1.png" title="Pattern and Glasses">
+                                <img src="./img/gallery/p1.png" alt="gallery-1" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Pattern and Glasses</h4>
+                            <span class="text-secondary">Architectures, Gallery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item Food">
+                    <div class="our-gallery">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/gallery/p2.png" title="Stacked">
+                                <img src="./img/gallery/p2.png" alt="gallery-2" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Stacked</h4>
+                            <span class="text-secondary">Food, Gallery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item Architectures">
+                    <div class="our-gallery">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/gallery/p3.png" title="Curvy">
+                                <img src="./img/gallery/p3.png" alt="gallery-3" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Curvy</h4>
+                            <span class="text-secondary">Architectures, Gallery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item Movies">
+                    <div class="our-gallery">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/gallery/p7.png" title="Maze">
+                                <img src="./img/gallery/p7.png" alt="gallery-4" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Maze</h4>
+                            <span class="text-secondary">Movies, Gallery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item Movies">
+                    <div class="our-gallery">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/gallery/p8.png" title="Thrill Awaits">
+                                <img src="./img/gallery/p8.png" alt="gallery-5" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Thrill Awaits</h4>
+                            <span class="text-secondary">Movies, Gallery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item Artists">
+                    <div class="our-gallery">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/gallery/p4.png" title="Firm Hands">
+                                <img src="./img/gallery/p4.png" alt="gallery-6" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Firm Hands</h4>
+                            <span class="text-secondary">Artists, Gallery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item Artists">
+                    <div class="our-gallery">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/gallery/p5.png" title="Feathers">
+                                <img src="./img/gallery/p5.png" alt="gallery-7" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Feathers</h4>
+                            <span class="text-secondary">Artists, Gallery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item Artists">
+                    <div class="our-gallery">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/gallery/p6.png" title="ymphony">
+                                <img src="./img/gallery/p6.png" alt="gallery-8" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Symphony</h4>
+                            <span class="text-secondary">Artists, Gallery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 element-item Movies">
+                    <div class="our-gallery">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/gallery/p9.png" title="Scars">
+                                <img src="./img/gallery/p9.png" alt="gallery-9" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Scars</h4>
+                            <span class="text-secondary">Movies, Gallery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  ======================= End Gallery Area =============================  -->
+
 
         </main>
         <!-- ############################### End Main Area #################################-->
     
-
+        <footer class="footer-area">
+            <div class="container">
+                <div class="">
+                    <div class="site-logo text-center py-4">
+                        <a href="#"><img src="./img/Logo_Cherry_2137828.png" alt="logo"></a>
+                    </div>
+                    <div class="social text-center">
+                        <h5 class="text-uppercase">Follow me</h5>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="copyrights text-center">
+                        <p class="para">
+                            Copyright ©2019 All rights reserved | This template is made by
+                            <a href="#"><span style="color: var(--primary-color);">Silbia Islam</span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
     <!-- Jquery js file -->
     <script src="./js/jquery.3.5.1.js"></script>
 
     <!-- bootstrap js -->
     <script src="./js/bootstrap.min.js"></script>
-</body>
+
+    <!-- isotope js library -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+    
+    <!-- Magnific Popup script file-->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- custom js file -->
+    <script src="./js/main.js"></script>
+
+  </body>
 </html>
